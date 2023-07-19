@@ -133,8 +133,8 @@ public class Signupone extends JFrame implements ActionListener {
 
          male = new JRadioButtonMenuItem("Male");
         male.setFont(new Font("Segoe UI", Font.BOLD, 18));
-        male.setBackground( Color.BLACK);
-        male.setForeground(Color.WHITE);
+        male.setBackground( Color.WHITE);
+        male.setForeground(Color.BLACK);
         male.setBounds(204, 301, 133, 26);
         contentPane.add(male);
 
@@ -179,23 +179,23 @@ public class Signupone extends JFrame implements ActionListener {
 
 
         married = new JRadioButtonMenuItem("Married");
-        married.setForeground(Color.WHITE);
+        married.setForeground(Color.BLACK);
         married.setFont(new Font("Segoe UI", Font.BOLD, 18));
-        married.setBackground(Color.BLACK);
+        married.setBackground(Color.WHITE);
         married.setBounds(204, 380, 133, 26);
         contentPane.add(married);
 
          unmarried = new JRadioButtonMenuItem("Unmarried");
-        unmarried.setForeground(Color.WHITE);
+        unmarried.setForeground(Color.BLACK);
         unmarried.setFont(new Font("Segoe UI", Font.BOLD, 18));
-        unmarried.setBackground(Color.BLACK);
+        unmarried.setBackground(Color.WHITE);
         unmarried.setBounds(355, 380, 133, 26);
         contentPane.add(unmarried);
 
          other = new JRadioButtonMenuItem("Other");
-        other.setForeground(Color.WHITE);
+        other.setForeground(Color.BLACK);
         other.setFont(new Font("Segoe UI", Font.BOLD, 18));
-        other.setBackground(Color.BLACK);
+        other.setBackground(Color.WHITE);
         other.setBounds(486, 380, 127, 26);
         contentPane.add(other);
 
